@@ -2,4 +2,4 @@ language: objective-c
 before_script:
   - cd TravisTestProject
 env:
-  - XCCONFIGURATION=Release1
+  - XCODEBUILD_SETTINGS="-sdk iphonesimulator"
